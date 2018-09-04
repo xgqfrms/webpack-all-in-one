@@ -38,7 +38,7 @@
         // "editor.foldingStrategy": "auto"
     },
     "[markdown]": {
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.renderWhitespace": "all",
         "editor.acceptSuggestionOnEnter": "off"
     },
