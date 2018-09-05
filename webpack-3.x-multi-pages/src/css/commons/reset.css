@@ -1,0 +1,59 @@
+@charset "UTf-8";
+
+/**
+ *
+ * @author xgqfrms
+ * @license MIT
+ * @copyright xgqfrms
+ *
+ * @description reset.css
+ *
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+
+*body {
+    font-size: 12px;
+    font-family: SimSun, serif;
+}
+
+main,
+nav,
+aside,
+header,
+footer,
+section,
+article,
+div,
+form,
+table,
+p,
+ul,
+li {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    display: none;
+}
+
+.clear-fixed::after {
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    font-size: 0;
+}

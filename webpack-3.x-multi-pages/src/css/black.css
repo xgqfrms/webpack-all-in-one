@@ -1,0 +1,16 @@
+@charset "UTf-8";
+
+/* black.css */
+
+:root {
+    --cololr: #0f0;
+    --background: #000;
+    --font-size: 23px;
+}
+
+
+/* body {
+    color: var(--cololr);
+    background: var(--background);
+    font-size: var(--font-size);
+} */

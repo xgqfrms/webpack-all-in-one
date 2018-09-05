@@ -1,0 +1,15 @@
+@charset "UTf-8";
+
+/* main.css */
+
+:root {
+    --cololr: #000;
+    --background: #fff;
+    --font-size: 12px;
+}
+
+body {
+    color: var(--cololr);
+    background: var(--background);
+    font-size: var(--font-size);
+}

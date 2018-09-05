@@ -1,0 +1,70 @@
+{
+    "modules": [{
+            "id": 0,
+            "uid": "empty-placeholder",
+            "key": "F10_WCM_0000",
+            "title": "空",
+            "options": {
+                "width": "500",
+                "height": "300",
+                "size": "500x300"
+            }
+        },
+        {
+            "id": 1,
+            "uid": "latest-news",
+            "key": "F10_WCM_0001",
+            "title": "概要",
+            "options": {
+                "width": "1100",
+                "height": "200",
+                "size": "1100x200",
+                "setConfig": {
+                    "customConfig": "200"
+                },
+                "others": []
+            }
+        },
+        {
+            "id": 2,
+            "uid": "margin-financing-margin-lending",
+            "key": "F10_WCM_0002",
+            "title": "资券",
+            "options": {
+                "width": "1100",
+                "height": "500",
+                "size": "1100x500",
+                "setConfig": {
+                    "customConfig": "200"
+                },
+                "others": []
+            }
+        },
+        {
+            "id": 3,
+            "uid": "hotspot-news",
+            "key": "F10_WCM_0003",
+            "title": "新闻",
+            "options": {
+                "pages": 10,
+                "width": "700",
+                "height": "395",
+                "size": "700x395",
+                "setConfig": {
+                    "customConfig": "200"
+                },
+                "others": []
+            }
+        }
+    ],
+    "layout": {
+        "eid": 10006,
+        "items": [{
+            "id": "18419",
+            "pid": "10006",
+            "name": "默认配置",
+            "value": "JTdCJTIybGVmdCUyMiUzQSU1QiUyMm90Y3BlcmZhc3QwMSUyMiUyQyUyMmJ1bGxldGluJTIyJTJDJTIyY29tcGFueS1hbGwlMjIlNUQlMkMlMjJyaWdodCUyMiUzQSU1QiUyMm90Y3BlcmZhc3QwMiUyMiU1RCU3RA==",
+            "child": []
+        }]
+    }
+}

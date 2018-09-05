@@ -1,0 +1,121 @@
+@charset "UTf-8";
+
+/**
+ *
+ * @author xgqfrms
+ * @license MIT
+ * @copyright xgqfrms
+ *
+ * @description modules-components.css
+ *
+ */
+
+.main-module-box {
+    width: calc(100%);
+    background: #fff;
+    color: #000;
+}
+
+.main-module-title-box {
+    position: relative;
+    background: #fff;
+    border: 0;
+    width: calc(100%);
+    height: 34px;
+    line-height: 34px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.main-module-title-box::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 34px;
+    left: 0;
+    width: calc(100%);
+    height: 0;
+    background: #f79530;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.main-module-title-caption {
+    color: #000;
+    width: calc(100% - 100px);
+    text-indent: 15px;
+}
+
+.main-module-title-caption::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: calc(50% - 8px);
+    left: 5px;
+    width: 4px;
+    height: 16px;
+    background: #f79530;
+}
+
+.main-module-title-icon-box {
+    float: right;
+    margin-right: 0;
+    width: 100px;
+    background: #fff;
+}
+
+.main-module-title-icon {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    top: 50%;
+    left: 10px;
+    text-indent: 0;
+    width: 20px;
+    height: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main-module-title-icon:nth-of-type(1)::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: calc(50% - 7px);
+    left: 3px;
+    width: 14px;
+    height: 14px;
+    background: url(../imgs/settings.png) 0 50% no-repeat;
+}
+
+.main-module-title-icon:nth-of-type(2)::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: calc(50% - 7px);
+    left: 3px;
+    width: 14px;
+    height: 14px;
+    background: url(../imgs/settings.png) -168px 50% no-repeat;
+}
+
+.main-module-title-icon:nth-of-type(3)::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: calc(50% - 7px);
+    left: 3px;
+    width: 14px;
+    height: 14px;
+    background: url(../imgs/settings.png) -252px 50% no-repeat;
+}
+
+.main-module-content-box {
+    position: relative;
+    /* background: #0f0; */
+    background: #fff;
+    border: 0;
+    width: calc(100%);
+    height: 100px;
+    margin: 0;
+    margin-top: 10px;
+}

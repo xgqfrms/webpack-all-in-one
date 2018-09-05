@@ -1,0 +1,136 @@
+@charset "UTf-8";
+
+/**
+ *
+ * @author xgqfrms
+ * @license MIT
+ * @copyright xgqfrms
+ *
+ * @description index.css
+ *
+ */
+
+
+/* commons */
+
+@import url("./commons/reset.css");
+
+/* utils */
+
+@import url("./utils/accordion.css");
+
+/* layout */
+
+@import url("./layout/aside.css");
+@import url("./layout/main.css");
+
+/* index.css */
+
+.icons-container {
+    overflow-y: auto;
+    width: 238px;
+    height: 100vh;
+}
+
+h2 {
+    position: relative;
+}
+
+span {
+    display: inline-block;
+}
+
+.h5-dnd-icon-box {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid rgba(229, 229, 229, 1);
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    min-width: 80px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    float: left;
+    margin: 5px;
+    cursor: default;
+    cursor: grab;
+    border-radius: 5px;
+}
+
+.h5-dnd-icon-box:hover {
+    background: #e5eeff;
+    border: 1px solid #7db8ff;
+}
+
+.h5-dnd-icon-title {
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 66px;
+    position: relative;
+    font-size: 12px;
+    color: rgba(112, 112, 112, 1);
+    line-height: 16px;
+    height: 16px;
+    padding-left: 7px;
+    padding-right: 7px;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+.h5-dnd-icon-title::before {
+    content: "no icon!";
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    bottom: 26px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+}
+
+.container-modules>.h5-dnd-icon-box:nth-of-type(1)>.h5-dnd-icon-title::before {
+    content: url("../imgs/icons/1.png");
+}
+
+.container-modules>.h5-dnd-icon-box:nth-of-type(2)>.h5-dnd-icon-title::before {
+    content: url("../imgs/icons/2.png");
+}
+
+.container-modules>.h5-dnd-icon-box:nth-of-type(3)>.h5-dnd-icon-title::before {
+    content: url("../imgs/icons/3.png");
+}
+
+.h5-dnd-icon-box:nth-of-type(n)>.h5-dnd-icon-title::before {
+    content: url("../imgs/icons/0.png");
+}
+
+.h5-dnd-icon-p-mask {
+    display: block;
+    margin-top: 100px;
+    margin-left: -1px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: bold;
+    height: 0;
+    line-height: 100px;
+    width: 100px;
+    padding-left: 7px;
+    padding-right: 7px;
+    word-break: break-all;
+    overflow-wrap: break-word;
+    color: #fff;
+    background: #4f81c280;
+    opacity: 0;
+}
+
+.h5-dnd-icon-box:hover>.h5-dnd-icon-p-mask {
+    transform: translateY(-84px);
+    height: 108px;
+    opacity: 1;
+    transition: all 0.5s 0s;
+}

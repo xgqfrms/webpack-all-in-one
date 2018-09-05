@@ -1,0 +1,49 @@
+{
+    "name": "webpack-test",
+    "version": "3.3.3",
+    "description": "webpack-test",
+    "main": "index.js",
+    "scripts": {
+        "app": "npm run rmrf-all && webpack -p  && npm run rmrf-map",
+        "dev": "npm run rmrf-all && webpack -p -w",
+        "rmrf": "rimraf build/js",
+        "rmrf-all": "rimraf build/*",
+        "rmrf-map": "rimraf build/**/*.map",
+        "html": "browser-sync start --server --files './build/**/*'",
+        "db": "json-server --watch db.json && start http://localhost:3000/build/index.html"
+    },
+    "private": true,
+    "bin": {
+        "app": "app",
+        "dev": "dev",
+        "html": "html",
+        "rmrf": "rmrf"
+    },
+    "keywords": [
+        "webpack",
+        "webpack-3.x"
+    ],
+    "author": "xgqfrms",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "copy-webpack-plugin": "^4.5.2",
+        "css-loader": "^1.0.0",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "html-webpack-plugin": "^3.2.0",
+        "node-sass": "^4.9.3",
+        "rimraf": "^2.6.2",
+        "sass-loader": "^7.1.0",
+        "style-loader": "^0.22.1",
+        "uglify-es": "^3.3.9",
+        "uglify-js": "^3.4.7",
+        "uglifyjs-webpack-plugin": "^1.3.0",
+        "webpack": "^3.10.0",
+        "webpack-cli": "^3.1.0"
+    },
+    "dependencies": {
+        "sortablejs": "^1.7.0"
+    }
+}
