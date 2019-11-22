@@ -1,0 +1,21 @@
+{
+  "name": "webpack-4.x-dynamic-import-modules",
+  "version": "1.0.1",
+  "description": "webpack dynamic import modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xgqfrms/webpack-all-in-one"
+  },
+  "keywords": [
+    "webpack",
+    "es-next",
+    "dynamic",
+    "import"
+  ],
+  "author": "xgqfrms",
+  "license": "MIT"
+}
