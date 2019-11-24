@@ -1,0 +1,10 @@
+var log = console.log;
+var any = 35;
+var multi = 35;
+var example1 = true;
+var example2 = 35;
+var example3 = 'Hello world';
+var arrayExample = [1, 3, 4, 5];
+// let arr= arrayExample.reduce((num1, num2) => num1 + num2);
+var arr = arrayExample.reduce(function (sum, num) { return sum + num; });
+log("arr", arr);
