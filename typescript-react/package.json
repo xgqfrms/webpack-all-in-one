@@ -1,0 +1,23 @@
+{
+  "name": "typescript-react",
+  "version": "1.0.1",
+  "description": "typescript & react",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xgqfrms/typescript-react.git"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": "xgqfrms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xgqfrms/typescript-react/issues"
+  },
+  "homepage": "https://github.com/xgqfrms/typescript-react#readme"
+}
