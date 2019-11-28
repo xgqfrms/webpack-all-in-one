@@ -64,3 +64,6 @@ typings/
 # next.js build output
 .next
 webpack-all-in-one/.DS_Store
+
+# parcel .cache
+*.cache
