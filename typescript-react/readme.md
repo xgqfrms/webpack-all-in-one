@@ -17,6 +17,8 @@ $ yarn add -D parcel-bundler
 
 https://parceljs.org/
 
+https://parceljs.org/getting_started.html
+
 ## dev
 
 ```sh
