@@ -10,5 +10,7 @@ function test() {
 }
 test();
 
+console.error('❌ webpack 4.x console.error testing');
+console.warn('⚠️☢️⚠☣️ webpack 4.x console.error testing');
 console.log('✅ webpack 4.x console.log testing');
 

@@ -262,8 +262,13 @@ if (isProd) {
                         compress: {
                             // remove warnings
                             warnings: false,
+                            // drop_console: true,
                             // remove console.log
-                            pure_funcs: ['console.log'],
+                            pure_funcs: [
+                                'console.log',
+                                // 'console.warn',
+                                // 'console.error',
+                            ],
                         },
                     },
                     sourceMap: false,
