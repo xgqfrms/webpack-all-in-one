@@ -12,3 +12,8 @@ https://webpack.xgqfrms.xyz/
 ## vs code
 
 https://github.com/xgqfrms/vscode/issues/8#issuecomment-417865231
+
+
+## webpack 4.x console.log
+
+[webpack-4.x-console.log](./webpack-4.x-console.log/readme.md)
